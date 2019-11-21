@@ -1,0 +1,1405 @@
+EESchema Schematic File Version 4
+LIBS:lora_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 2
+Title "Sensi Board"
+Date "2019-10-01"
+Rev "Draft"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lora_board-rescue:Conn_03x32_DIN41612-Devtank-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue J3
+U 1 1 5C5BC2B2
+P 12400 3400
+F 0 "J3" H 12325 1650 50  0000 L CNN
+F 1 "Conn_03x32_DIN41612" H 12300 1525 50  0000 L CNN
+F 2 "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Male-96Pin-3rows_correct" H 12400 3400 50  0001 C CNN
+F 3 "~" H 12400 3400 50  0001 C CNN
+F 4 "717-002" H -1100 275 50  0001 C CNN "Devtank"
+	1    12400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lora_board-rescue:Conn_03x32_DIN41612-Devtank-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue J3
+U 3 1 5C5BC6AD
+P 15725 3400
+F 0 "J3" H 15675 1600 50  0000 L CNN
+F 1 "Conn_03x32_DIN41612" H 15700 1500 50  0000 L CNN
+F 2 "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Male-96Pin-3rows_correct" H 15725 3400 50  0001 C CNN
+F 3 "~" H 15725 3400 50  0001 C CNN
+F 4 "717-002" H -1100 275 50  0001 C CNN "Devtank"
+	3    15725 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 1900 12050 1900
+Wire Wire Line
+	12050 1900 12050 2200
+$Comp
+L power:GND #PWR012
+U 1 1 5CAE7E7D
+P 12050 5200
+F 0 "#PWR012" H 12050 4950 50  0001 C CNN
+F 1 "GND" H 12055 5027 50  0000 C CNN
+F 2 "" H 12050 5200 50  0001 C CNN
+F 3 "" H 12050 5200 50  0001 C CNN
+	1    12050 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 2200 12050 2200
+Connection ~ 12050 2200
+Wire Wire Line
+	12050 2200 12050 2500
+Wire Wire Line
+	12200 2500 12050 2500
+Connection ~ 12050 2500
+Wire Wire Line
+	12050 2500 12050 2800
+Wire Wire Line
+	12200 2800 12050 2800
+Connection ~ 12050 2800
+Wire Wire Line
+	12050 2800 12050 3900
+Wire Wire Line
+	12200 3900 12050 3900
+Connection ~ 12050 3900
+Wire Wire Line
+	12050 3900 12050 5200
+Wire Wire Line
+	12200 2000 11050 2000
+Wire Wire Line
+	12200 2100 11050 2100
+Wire Wire Line
+	12200 2300 11050 2300
+Wire Wire Line
+	12200 2700 11050 2700
+Wire Wire Line
+	12200 4000 11050 4000
+Wire Wire Line
+	12200 4100 11050 4100
+Wire Wire Line
+	12200 4200 11050 4200
+Wire Wire Line
+	12200 4300 11050 4300
+Wire Wire Line
+	12200 4600 11050 4600
+Wire Wire Line
+	12200 4700 11050 4700
+Wire Wire Line
+	12200 4800 11050 4800
+Wire Wire Line
+	12200 4900 11050 4900
+Wire Wire Line
+	12200 5000 11050 5000
+$Comp
+L power:GND #PWR014
+U 1 1 5CF5E660
+P 13700 5200
+F 0 "#PWR014" H 13700 4950 50  0001 C CNN
+F 1 "GND" H 13705 5027 50  0000 C CNN
+F 2 "" H 13700 5200 50  0001 C CNN
+F 3 "" H 13700 5200 50  0001 C CNN
+	1    13700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 1900 13700 1900
+Wire Wire Line
+	13700 1900 13700 2000
+Wire Wire Line
+	13850 2000 13700 2000
+Connection ~ 13700 2000
+Wire Wire Line
+	13700 2000 13700 2100
+Wire Wire Line
+	13850 2100 13700 2100
+Connection ~ 13700 2100
+Wire Wire Line
+	13700 2100 13700 2200
+Wire Wire Line
+	13850 2200 13700 2200
+Connection ~ 13700 2200
+Wire Wire Line
+	13700 2200 13700 2300
+Wire Wire Line
+	13850 2300 13700 2300
+Connection ~ 13700 2300
+Wire Wire Line
+	13700 2300 13700 2400
+Wire Wire Line
+	13850 2400 13700 2400
+Connection ~ 13700 2400
+Wire Wire Line
+	13700 2400 13700 2500
+Wire Wire Line
+	13850 2500 13700 2500
+Connection ~ 13700 2500
+Wire Wire Line
+	13700 2500 13700 3100
+Wire Wire Line
+	13850 3100 13700 3100
+Connection ~ 13700 3100
+Wire Wire Line
+	13700 3100 13700 4100
+Wire Wire Line
+	13850 4100 13700 4100
+Connection ~ 13700 4100
+Wire Wire Line
+	13700 4100 13700 4700
+Wire Wire Line
+	13850 4700 13700 4700
+Connection ~ 13700 4700
+Wire Wire Line
+	13700 4700 13700 5000
+Wire Wire Line
+	13850 5000 13700 5000
+Connection ~ 13700 5000
+Wire Wire Line
+	13700 5000 13700 5200
+$Comp
+L Devtank:+3V3_BP #PWR019
+U 1 1 5D48DCD2
+P 14900 2500
+F 0 "#PWR019" H 14900 2350 50  0001 C CNN
+F 1 "+3V3_BP" V 14915 2628 50  0000 L CNN
+F 2 "" H 14900 2500 50  0000 C CNN
+F 3 "" H 14900 2500 50  0000 C CNN
+	1    14900 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14900 1900 15000 1900
+Wire Wire Line
+	15200 1900 15525 1900
+Wire Wire Line
+	15525 2000 15200 2000
+Wire Wire Line
+	15200 2000 15200 1900
+Connection ~ 15200 1900
+Wire Wire Line
+	15525 2100 15200 2100
+Wire Wire Line
+	15525 2200 15200 2200
+Wire Wire Line
+	15200 2200 15200 2100
+Connection ~ 15200 2100
+Wire Wire Line
+	15525 2300 15200 2300
+Wire Wire Line
+	15525 2400 15200 2400
+Wire Wire Line
+	15200 2400 15200 2300
+Connection ~ 15200 2300
+Wire Wire Line
+	15200 2300 15000 2300
+Wire Wire Line
+	14900 2100 15000 2100
+Wire Wire Line
+	15525 2500 15200 2500
+Wire Wire Line
+	15525 2600 15200 2600
+Wire Wire Line
+	15200 2600 15200 2500
+Connection ~ 15200 2500
+Wire Wire Line
+	15200 2500 15000 2500
+Wire Wire Line
+	15525 2700 15200 2700
+$Comp
+L Devtank:ADJ_DC #PWR020
+U 1 1 5DA986FE
+P 14900 2700
+F 0 "#PWR020" H 14900 2550 50  0001 C CNN
+F 1 "ADJ_DC" V 14915 2827 50  0000 L CNN
+F 2 "" H 14900 2700 50  0000 C CNN
+F 3 "" H 14900 2700 50  0000 C CNN
+	1    14900 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15525 2800 15200 2800
+Wire Wire Line
+	15200 2800 15200 2700
+Connection ~ 15200 2700
+Wire Wire Line
+	15200 2700 15000 2700
+$Comp
+L power:GND #PWR022
+U 1 1 5DAE1A4D
+P 15400 5200
+F 0 "#PWR022" H 15400 4950 50  0001 C CNN
+F 1 "GND" H 15405 5027 50  0000 C CNN
+F 2 "" H 15400 5200 50  0001 C CNN
+F 3 "" H 15400 5200 50  0001 C CNN
+	1    15400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 5200 15400 4200
+Wire Wire Line
+	15400 2900 15525 2900
+Wire Wire Line
+	15525 3200 15400 3200
+Connection ~ 15400 3200
+Wire Wire Line
+	15400 3200 15400 2900
+Wire Wire Line
+	15525 3500 15400 3500
+Connection ~ 15400 3500
+Wire Wire Line
+	15400 3500 15400 3200
+Wire Wire Line
+	15525 4200 15400 4200
+Connection ~ 15400 4200
+Wire Wire Line
+	15400 4200 15400 3500
+Wire Wire Line
+	15525 3300 14350 3300
+Wire Wire Line
+	15525 3600 14350 3600
+Wire Wire Line
+	15525 3700 14350 3700
+Wire Wire Line
+	15525 3800 14350 3800
+Wire Wire Line
+	15525 3900 14350 3900
+Wire Wire Line
+	15525 4000 14350 4000
+Wire Wire Line
+	15525 4100 14350 4100
+Wire Wire Line
+	15525 4300 14350 4300
+$Comp
+L Devtank:+3V3_BP #PWR029
+U 1 1 5DEB005F
+P 18475 4175
+F 0 "#PWR029" H 18475 4025 50  0001 C CNN
+F 1 "+3V3_BP" H 18490 4348 50  0000 C CNN
+F 2 "" H 18475 4175 50  0000 C CNN
+F 3 "" H 18475 4175 50  0000 C CNN
+	1    18475 4175
+	-1   0    0    1   
+$EndComp
+$Comp
+L lora_board-rescue:Jumper_NC_Dual-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue JP1
+U 1 1 5DEB1E14
+P 18475 3825
+F 0 "JP1" V 18429 3926 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 18520 3926 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18475 3825 50  0001 C CNN
+F 3 "" H 18475 3825 50  0001 C CNN
+F 4 "710-014" H 0   0   50  0001 C CNN "Devtank"
+	1    18475 3825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17875 3725 17875 3825
+Wire Wire Line
+	17875 3825 18375 3825
+Wire Wire Line
+	18475 3475 18475 3575
+Wire Wire Line
+	18475 4075 18475 4175
+$Comp
+L Devtank:+3V3_LOC #PWR044
+U 1 1 5E55A876
+P 21675 5175
+F 0 "#PWR044" H 21675 5025 50  0001 C CNN
+F 1 "+3V3_LOC" H 21690 5348 50  0000 C CNN
+F 2 "" H 21675 5175 50  0000 C CNN
+F 3 "" H 21675 5175 50  0000 C CNN
+	1    21675 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR016
+U 1 1 5E638484
+P 14900 1900
+F 0 "#PWR016" H 14900 1750 50  0001 C CNN
+F 1 "+12V" V 14915 2028 50  0000 L CNN
+F 2 "" H 14900 1900 50  0001 C CNN
+F 3 "" H 14900 1900 50  0001 C CNN
+	1    14900 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Devtank:-5V #PWR018
+U 1 1 5E638694
+P 14900 2300
+F 0 "#PWR018" H 14900 2150 50  0001 C CNN
+F 1 "-5V" V 14915 2428 50  0000 L CNN
+F 2 "" H 14900 2300 50  0000 C CNN
+F 3 "" H 14900 2300 50  0000 C CNN
+	1    14900 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 5E638CC6
+P 14900 2100
+F 0 "#PWR017" H 14900 1950 50  0001 C CNN
+F 1 "+5V" V 14915 2228 50  0000 L CNN
+F 2 "" H 14900 2100 50  0001 C CNN
+F 3 "" H 14900 2100 50  0001 C CNN
+	1    14900 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4225 7200 4225
+Wire Wire Line
+	6200 4375 7200 4375
+Text Label 7200 4225 2    60   ~ 0
+STM_BOOT0
+Text Label 7200 4375 2    60   ~ 0
+STM_RESET
+$Sheet
+S 4250 3525 1950 1300
+U 5CA829FD
+F0 "USB_Debug" 60
+F1 "USB_Debug.sch" 60
+F2 "RS232_RX" I R 6200 3675 60 
+F3 "RS232_TX" I R 6200 3825 60 
+F4 "USB_P" B L 4250 3675 60 
+F5 "USB_N" B L 4250 3825 60 
+F6 "USB_BUS_PWR" I L 4250 4125 60 
+F7 "USB_~RESET" I L 4250 4500 60 
+F8 "STM_BOOT0" O R 6200 4225 60 
+F9 "STM_RESET" O R 6200 4375 60 
+F10 "STM_RES1" O R 6200 4525 60 
+F11 "STM_RES2" O R 6200 4675 60 
+$EndSheet
+Wire Wire Line
+	6200 4525 7200 4525
+Wire Wire Line
+	6200 4675 7200 4675
+Wire Wire Line
+	6200 3825 7200 3825
+Wire Wire Line
+	6200 3675 7200 3675
+Wire Wire Line
+	4250 3675 3450 3675
+Wire Wire Line
+	4250 3825 3450 3825
+Wire Wire Line
+	4250 4500 3450 4500
+$Comp
+L power:+5V #PWR03
+U 1 1 5CD9567E
+P 3800 4125
+F 0 "#PWR03" H 3800 3975 50  0001 C CNN
+F 1 "+5V" V 3815 4253 50  0000 L CNN
+F 2 "" H 3800 4125 50  0001 C CNN
+F 3 "" H 3800 4125 50  0001 C CNN
+	1    3800 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4125 4250 4125
+Text Label 11050 2000 0    60   ~ 0
+LVDSCLK+
+Text Label 11050 2100 0    60   ~ 0
+LVDSCLK-
+Text Label 11050 2300 0    60   ~ 0
+LVDS_MOSI+
+Text Label 11050 2400 0    60   ~ 0
+LVDS_MOSI-
+Text Label 11050 2600 0    60   ~ 0
+LVDS_MISO+
+Text Label 11050 2700 0    60   ~ 0
+LVDS_MISO-
+Text Label 11050 2900 0    60   ~ 0
+FPGA_IO1
+Text Label 11050 3000 0    60   ~ 0
+FPGA_IO2
+Text Label 11050 3100 0    60   ~ 0
+FPGA_IO3
+Text Label 11050 3200 0    60   ~ 0
+FPGA_IO4
+Text Label 11050 3300 0    60   ~ 0
+FPGA_IO5
+Text Label 11050 3400 0    60   ~ 0
+FPGA_IO6
+Text Label 11050 3500 0    60   ~ 0
+FPGA_IO7
+Text Label 11050 3600 0    60   ~ 0
+FPGA_IO8
+Text Label 11050 3700 0    60   ~ 0
+FPGA_IO9
+Text Label 11050 3800 0    60   ~ 0
+FPGA_IO10
+Text Label 11050 4000 0    60   ~ 0
+MBRD_IO8
+Text Label 11050 4100 0    60   ~ 0
+MBRD_IO9
+Text Label 11050 4200 0    60   ~ 0
+MBRD_IO10
+Text Label 11050 4300 0    60   ~ 0
+LCOM_1
+Text Label 11050 4400 0    60   ~ 0
+LCOM_2
+Text Label 11050 4500 0    60   ~ 0
+LCOM_3
+Text Label 11050 4600 0    60   ~ 0
+LCOM_4
+Text Label 11050 4700 0    60   ~ 0
+LCOM_5
+Text Label 11050 4800 0    60   ~ 0
+LCOM_6
+Text Label 11050 4900 0    60   ~ 0
+LCOM_7
+Text Label 11050 5000 0    60   ~ 0
+LCOM_8
+Wire Wire Line
+	11050 2400 12200 2400
+Wire Wire Line
+	11050 2600 12200 2600
+Wire Wire Line
+	11050 2900 12200 2900
+Wire Wire Line
+	11050 3000 12200 3000
+Wire Wire Line
+	11050 3100 12200 3100
+Wire Wire Line
+	11050 3200 12200 3200
+Wire Wire Line
+	11050 3300 12200 3300
+Wire Wire Line
+	11050 3400 12200 3400
+Wire Wire Line
+	11050 3500 12200 3500
+Wire Wire Line
+	11050 3600 12200 3600
+Wire Wire Line
+	11050 3700 12200 3700
+Wire Wire Line
+	11050 3800 12200 3800
+Wire Wire Line
+	11050 4400 12200 4400
+Wire Wire Line
+	11050 4500 12200 4500
+Text Label 12750 2600 0    60   ~ 0
+SPI0_MOSI
+Text Label 12750 2700 0    60   ~ 0
+SPI0_MISO
+Text Label 12750 2800 0    60   ~ 0
+SPI0_CLK
+Text Label 12750 3000 0    60   ~ 0
+SPI0_CS1
+Text Label 12750 2900 0    60   ~ 0
+SPI0_CS0
+Wire Wire Line
+	12750 2600 13850 2600
+Wire Wire Line
+	12750 2700 13850 2700
+Wire Wire Line
+	12750 2800 13850 2800
+Wire Wire Line
+	12750 2900 13850 2900
+Wire Wire Line
+	12750 3000 13850 3000
+Wire Wire Line
+	12750 3200 13850 3200
+Wire Wire Line
+	12750 3300 13850 3300
+Wire Wire Line
+	12750 3400 13850 3400
+Wire Wire Line
+	12750 3500 13850 3500
+Wire Wire Line
+	12750 3600 13850 3600
+Text Label 12750 3200 0    60   ~ 0
+SPI1_MOSI
+Text Label 12750 3300 0    60   ~ 0
+SPI1_MISO
+Text Label 12750 3400 0    60   ~ 0
+SPI1_CLK
+Text Label 12750 3500 0    60   ~ 0
+SPI1_CS0
+Text Label 12750 3600 0    60   ~ 0
+SPI1_CS1
+Wire Wire Line
+	12750 3700 13850 3700
+Wire Wire Line
+	12750 3800 13850 3800
+Wire Wire Line
+	12750 3900 13850 3900
+Wire Wire Line
+	12750 4000 13850 4000
+Text Label 12750 3700 0    60   ~ 0
+SPI1_CS2
+Text Label 12750 3800 0    60   ~ 0
+GPIO1_MBRD
+Text Label 12750 3900 0    60   ~ 0
+GPIO2_MBRD
+Text Label 12750 4000 0    60   ~ 0
+GPIO3_MBRD
+Wire Wire Line
+	12750 4200 13850 4200
+Wire Wire Line
+	12750 4300 13850 4300
+Wire Wire Line
+	12750 4400 13850 4400
+Wire Wire Line
+	12750 4500 13850 4500
+Wire Wire Line
+	12750 4600 13850 4600
+Wire Wire Line
+	12750 4800 13850 4800
+Wire Wire Line
+	12750 4900 13850 4900
+Text Label 12750 4200 0    60   ~ 0
+SYS_CLK
+Text Label 12750 4300 0    60   ~ 0
+SYS_TRIG
+Text Label 12750 4400 0    60   ~ 0
+PORT_SEL
+Text Label 12750 4500 0    60   ~ 0
+SHUTDOWN
+Text Label 12750 4600 0    60   ~ 0
+RESET
+Wire Wire Line
+	14350 3000 15525 3000
+Wire Wire Line
+	14350 3100 15525 3100
+Wire Wire Line
+	14350 3400 15525 3400
+Wire Wire Line
+	14350 4400 15525 4400
+Wire Wire Line
+	14350 4500 15525 4500
+Wire Wire Line
+	14350 4600 15525 4600
+Wire Wire Line
+	14350 4700 15525 4700
+Wire Wire Line
+	14350 4800 15525 4800
+Wire Wire Line
+	14350 4900 15525 4900
+Wire Wire Line
+	14350 5000 15525 5000
+Text Label 14350 3000 0    60   ~ 0
+I2C0_SDA
+Text Label 14350 3100 0    60   ~ 0
+I2C0_SCL
+Text Label 14350 3300 0    60   ~ 0
+I2C1_SDA
+Text Label 14350 3400 0    60   ~ 0
+I2C1_SCL
+Text Label 14350 3600 0    60   ~ 0
+MBRD_IO4
+Text Label 14350 3700 0    60   ~ 0
+MBRD_IO5
+Text Label 14350 3800 0    60   ~ 0
+MBRD_IO6
+Text Label 14350 3900 0    60   ~ 0
+MBRD_IO7
+Text Label 14350 4000 0    60   ~ 0
+PWM0
+Text Label 14350 4100 0    60   ~ 0
+PWM1
+Text Label 14350 4300 0    60   ~ 0
+RCOM_1
+Text Label 14350 4400 0    60   ~ 0
+RCOM_2
+Text Label 14350 4500 0    60   ~ 0
+RCOM_3
+Text Label 14350 4600 0    60   ~ 0
+RCOM_4
+Text Label 14350 4700 0    60   ~ 0
+RCOM_5
+Text Label 14350 4800 0    60   ~ 0
+RCOM_6
+Text Label 14350 4900 0    60   ~ 0
+RCOM_7
+Text Label 14350 5000 0    60   ~ 0
+RCOM_8
+Text Label 3450 3675 0    60   ~ 0
+USB_DEBUG_P
+Text Label 3450 3825 0    60   ~ 0
+USB_DEBUG_N
+Text Label 3450 4500 0    60   ~ 0
+RESET
+Text Label 7200 3675 2    60   ~ 0
+STM_DEBUG_RX
+Text Label 7200 3825 2    60   ~ 0
+STM_DEBUG_TX
+Text Label 7200 4525 2    60   ~ 0
+STM_RES1
+Text Label 7200 4675 2    60   ~ 0
+STM_RES2
+$Comp
+L lora_board-rescue:AT25_EEPROM-memory-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue U3
+U 1 1 5EDBA612
+P 21525 3775
+F 0 "U3" H 21250 4050 50  0000 C CNN
+F 1 "AT25DN512CSSHF-B" H 22000 4050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 21175 3725 50  0001 C CNN
+F 3 "http://www.atmel.com/products/Memories/serial/spi.aspx" H 21175 3725 50  0001 C CNN
+F 4 "129-002" H 0   0   50  0001 C CNN "Devtank"
+	1    21525 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L lora_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue R16
+U 1 1 5EDBA935
+P 20800 3450
+F 0 "R16" H 20675 3375 50  0000 C CNN
+F 1 "4K7" H 20650 3475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20730 3450 50  0001 C CNN
+F 3 "" H 20800 3450 50  0001 C CNN
+F 4 "101-009" H 0   0   50  0001 C CNN "Devtank"
+	1    20800 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L lora_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue R15
+U 1 1 5EDBAD27
+P 20525 3450
+F 0 "R15" H 20400 3375 50  0000 C CNN
+F 1 "4K7" H 20375 3475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20455 3450 50  0001 C CNN
+F 3 "" H 20525 3450 50  0001 C CNN
+F 4 "101-009" H 0   0   50  0001 C CNN "Devtank"
+	1    20525 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L lora_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue R17
+U 1 1 5EDBADBB
+P 20800 4150
+F 0 "R17" H 20675 4075 50  0000 C CNN
+F 1 "DNF" H 20650 4175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20730 4150 50  0001 C CNN
+F 3 "" H 20800 4150 50  0001 C CNN
+	1    20800 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	21125 3675 20800 3675
+Wire Wire Line
+	20800 3675 20800 3600
+Wire Wire Line
+	20525 3600 20525 3775
+Wire Wire Line
+	20525 3775 21125 3775
+Wire Wire Line
+	20800 4000 20800 3675
+Connection ~ 20800 3675
+$Comp
+L power:+3V3 #PWR036
+U 1 1 5EF03E3A
+P 20525 3125
+F 0 "#PWR036" H 20525 2975 50  0001 C CNN
+F 1 "+3V3" H 20540 3298 50  0000 C CNN
+F 2 "" H 20525 3125 50  0001 C CNN
+F 3 "" H 20525 3125 50  0001 C CNN
+	1    20525 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20525 3125 20525 3200
+Wire Wire Line
+	20800 3300 20800 3200
+Wire Wire Line
+	20800 3200 20525 3200
+Connection ~ 20525 3200
+Wire Wire Line
+	20525 3200 20525 3300
+$Comp
+L power:GND #PWR038
+U 1 1 5EFA9CAB
+P 20800 4400
+F 0 "#PWR038" H 20800 4150 50  0001 C CNN
+F 1 "GND" H 20805 4227 50  0000 C CNN
+F 2 "" H 20800 4400 50  0001 C CNN
+F 3 "" H 20800 4400 50  0001 C CNN
+	1    20800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 4400 20800 4300
+$Comp
+L lora_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue R14
+U 1 1 5EFFD223
+P 20150 3475
+F 0 "R14" H 20025 3400 50  0000 C CNN
+F 1 "10K" H 20000 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20080 3475 50  0001 C CNN
+F 3 "" H 20150 3475 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
+	1    20150 3475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20150 3325 20150 3200
+Wire Wire Line
+	20150 3200 20525 3200
+Wire Wire Line
+	20150 3625 20150 3875
+Connection ~ 20150 3875
+Wire Wire Line
+	20150 3875 21125 3875
+Wire Wire Line
+	19575 3875 20150 3875
+Text Label 19575 3875 0    60   ~ 0
+PORT_SEL
+Wire Wire Line
+	21925 3675 22700 3675
+Wire Wire Line
+	21925 3775 22700 3775
+Wire Wire Line
+	21925 3875 22700 3875
+$Comp
+L power:GND #PWR043
+U 1 1 5F347969
+P 21525 4225
+F 0 "#PWR043" H 21525 3975 50  0001 C CNN
+F 1 "GND" H 21530 4052 50  0000 C CNN
+F 2 "" H 21525 4225 50  0001 C CNN
+F 3 "" H 21525 4225 50  0001 C CNN
+	1    21525 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21525 4225 21525 4075
+$Comp
+L power:+3V3 #PWR042
+U 1 1 5F39CE3C
+P 21525 2950
+F 0 "#PWR042" H 21525 2800 50  0001 C CNN
+F 1 "+3V3" H 21540 3123 50  0000 C CNN
+F 2 "" H 21525 2950 50  0001 C CNN
+F 3 "" H 21525 2950 50  0001 C CNN
+	1    21525 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21525 2950 21525 3125
+$Comp
+L lora_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue C12
+U 1 1 5F448100
+P 21875 3125
+F 0 "C12" V 21623 3125 50  0000 C CNN
+F 1 "100nF" V 21714 3125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 21913 2975 50  0001 C CNN
+F 3 "" H 21875 3125 50  0001 C CNN
+F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
+	1    21875 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5F448107
+P 22175 3200
+F 0 "#PWR047" H 22175 2950 50  0001 C CNN
+F 1 "GND" H 22180 3027 50  0000 C CNN
+F 2 "" H 22175 3200 50  0001 C CNN
+F 3 "" H 22175 3200 50  0001 C CNN
+	1    22175 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21725 3125 21525 3125
+Connection ~ 21525 3125
+Wire Wire Line
+	21525 3125 21525 3475
+Wire Wire Line
+	22175 3200 22175 3125
+Wire Wire Line
+	22025 3125 22175 3125
+Text Label 22700 3675 2    60   ~ 0
+SPI0_CLK
+Text Label 22700 3875 2    60   ~ 0
+SPI0_MISO
+Text Label 22700 3775 2    60   ~ 0
+SPI0_MOSI
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP31
+U 1 1 6103CABC
+P 7200 3675
+F 0 "TP31" V 7200 3850 50  0000 L CNN
+F 1 "Test_Point" H 7258 3704 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 3675 50  0001 C CNN
+F 3 "~" H 7400 3675 50  0001 C CNN
+	1    7200 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP32
+U 1 1 6103D35F
+P 7200 3825
+F 0 "TP32" V 7200 4000 50  0000 L CNN
+F 1 "Test_Point" H 7258 3854 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 3825 50  0001 C CNN
+F 3 "~" H 7400 3825 50  0001 C CNN
+	1    7200 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP33
+U 1 1 6103D4C1
+P 7200 4225
+F 0 "TP33" V 7200 4400 50  0000 L CNN
+F 1 "Test_Point" H 7258 4254 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 4225 50  0001 C CNN
+F 3 "~" H 7400 4225 50  0001 C CNN
+	1    7200 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP34
+U 1 1 6103D63D
+P 7200 4375
+F 0 "TP34" V 7200 4550 50  0000 L CNN
+F 1 "Test_Point" H 7258 4404 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 4375 50  0001 C CNN
+F 3 "~" H 7400 4375 50  0001 C CNN
+	1    7200 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP35
+U 1 1 6103D7A1
+P 7200 4525
+F 0 "TP35" V 7200 4700 50  0000 L CNN
+F 1 "Test_Point" H 7258 4554 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 4525 50  0001 C CNN
+F 3 "~" H 7400 4525 50  0001 C CNN
+	1    7200 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP36
+U 1 1 6103D90F
+P 7200 4675
+F 0 "TP36" V 7200 4850 50  0000 L CNN
+F 1 "Test_Point" H 7258 4704 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7400 4675 50  0001 C CNN
+F 3 "~" H 7400 4675 50  0001 C CNN
+	1    7200 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP2
+U 1 1 6103DE85
+P 3450 4500
+F 0 "TP2" V 3450 4675 50  0000 L CNN
+F 1 "Test_Point" H 3508 4529 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3650 4500 50  0001 C CNN
+F 3 "~" H 3650 4500 50  0001 C CNN
+	1    3450 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lora_board-rescue:LD1117S33TR_SOT223-regul-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue U2
+U 1 1 626E7F61
+P 21075 5600
+F 0 "U2" H 21075 5842 50  0000 C CNN
+F 1 "LD1117S33TR_SOT223" H 21075 5751 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 21075 5800 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 21175 5350 50  0001 C CNN
+F 4 "150-004" H 21075 5600 50  0001 C CNN "Devtank"
+	1    21075 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devtank:+3V3_LOC #PWR028
+U 1 1 62742FED
+P 18475 3475
+F 0 "#PWR028" H 18475 3325 50  0001 C CNN
+F 1 "+3V3_LOC" H 18490 3648 50  0000 C CNN
+F 2 "" H 18475 3475 50  0000 C CNN
+F 3 "" H 18475 3475 50  0000 C CNN
+	1    18475 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 6274322C
+P 20425 5150
+F 0 "#PWR034" H 20425 5000 50  0001 C CNN
+F 1 "+5V" H 20350 5300 50  0000 L CNN
+F 2 "" H 20425 5150 50  0001 C CNN
+F 3 "" H 20425 5150 50  0001 C CNN
+	1    20425 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20425 5600 20775 5600
+Wire Wire Line
+	21375 5600 21675 5600
+Wire Wire Line
+	21675 5600 21675 5250
+$Comp
+L power:GND #PWR040
+U 1 1 627F4882
+P 21075 6100
+F 0 "#PWR040" H 21075 5850 50  0001 C CNN
+F 1 "GND" H 21080 5927 50  0000 C CNN
+F 2 "" H 21075 6100 50  0001 C CNN
+F 3 "" H 21075 6100 50  0001 C CNN
+	1    21075 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21075 6100 21075 5900
+$Comp
+L lora_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue C10
+U 1 1 6284DC97
+P 20425 5875
+F 0 "C10" H 20275 5825 50  0000 C CNN
+F 1 "10uF" H 20225 5925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 20463 5725 50  0001 C CNN
+F 3 "" H 20425 5875 50  0001 C CNN
+F 4 "105-001" H 0   0   50  0001 C CNN "Devtank"
+	1    20425 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L lora_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue C11
+U 1 1 6284E823
+P 21675 5875
+F 0 "C11" H 21525 5825 50  0000 C CNN
+F 1 "10uF" H 21475 5925 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 21713 5725 50  0001 C CNN
+F 3 "" H 21675 5875 50  0001 C CNN
+F 4 "105-001" H 0   0   50  0001 C CNN "Devtank"
+	1    21675 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 6284E9B1
+P 20425 6100
+F 0 "#PWR035" H 20425 5850 50  0001 C CNN
+F 1 "GND" H 20430 5927 50  0000 C CNN
+F 2 "" H 20425 6100 50  0001 C CNN
+F 3 "" H 20425 6100 50  0001 C CNN
+	1    20425 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 628A7472
+P 21675 6100
+F 0 "#PWR045" H 21675 5850 50  0001 C CNN
+F 1 "GND" H 21680 5927 50  0000 C CNN
+F 2 "" H 21675 6100 50  0001 C CNN
+F 3 "" H 21675 6100 50  0001 C CNN
+	1    21675 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21675 6025 21675 6100
+Wire Wire Line
+	21675 5725 21675 5600
+Connection ~ 21675 5600
+Wire Wire Line
+	20425 5725 20425 5600
+Connection ~ 20425 5600
+$Comp
+L lora_board-rescue:CP-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue C13
+U 1 1 62A0ADAE
+P 22100 5875
+F 0 "C13" H 22218 5921 50  0000 L CNN
+F 1 "100uF" H 22218 5830 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 22138 5725 50  0001 C CNN
+F 3 "" H 22100 5875 50  0001 C CNN
+F 4 "108-003" H 22100 5875 50  0001 C CNN "Devtank"
+	1    22100 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22100 5725 22100 5600
+Wire Wire Line
+	22100 5600 21675 5600
+$Comp
+L power:GND #PWR046
+U 1 1 62A64926
+P 22100 6100
+F 0 "#PWR046" H 22100 5850 50  0001 C CNN
+F 1 "GND" H 22105 5927 50  0000 C CNN
+F 2 "" H 22100 6100 50  0001 C CNN
+F 3 "" H 22100 6100 50  0001 C CNN
+	1    22100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22100 6100 22100 6025
+Wire Notes Line
+	19950 4925 22500 4925
+Wire Notes Line
+	22525 4950 22525 6425
+Wire Notes Line
+	22525 6475 19950 6475
+Wire Notes Line
+	19950 6450 19950 4975
+Text Notes 20100 6600 0    60   ~ 0
+Optional on-bord PSU for standalone applications
+$Comp
+L lora_board-rescue:D-device-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue D32
+U 1 1 62B97E68
+P 21050 5250
+F 0 "D32" H 21050 5466 50  0000 C CNN
+F 1 "MBR230LSFT1G" H 21050 5375 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 21050 5250 50  0001 C CNN
+F 3 "" H 21050 5250 50  0001 C CNN
+F 4 "133-006" H 0   0   50  0001 C CNN "Devtank"
+	1    21050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21200 5250 21675 5250
+Connection ~ 21675 5250
+Wire Wire Line
+	21675 5250 21675 5175
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP101
+U 1 1 5D0F8C0F
+P 15000 1900
+F 0 "TP101" H 15075 2025 50  0000 L CNN
+F 1 "Test_Point" H 15058 1929 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 15200 1900 50  0001 C CNN
+F 3 "~" H 15200 1900 50  0001 C CNN
+	1    15000 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 1900
+Wire Wire Line
+	15000 1900 15200 1900
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP102
+U 1 1 5D0FA000
+P 15000 2100
+F 0 "TP102" H 15075 2225 50  0000 L CNN
+F 1 "Test_Point" H 15058 2129 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 15200 2100 50  0001 C CNN
+F 3 "~" H 15200 2100 50  0001 C CNN
+	1    15000 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 2100
+Wire Wire Line
+	15000 2100 15200 2100
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP103
+U 1 1 5D0FA7DA
+P 15000 2300
+F 0 "TP103" H 15075 2425 50  0000 L CNN
+F 1 "Test_Point" H 15058 2329 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 15200 2300 50  0001 C CNN
+F 3 "~" H 15200 2300 50  0001 C CNN
+	1    15000 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 2300
+Wire Wire Line
+	15000 2300 14900 2300
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP104
+U 1 1 5D0FAC40
+P 15000 2500
+F 0 "TP104" H 15075 2625 50  0000 L CNN
+F 1 "Test_Point" H 15058 2529 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 15200 2500 50  0001 C CNN
+F 3 "~" H 15200 2500 50  0001 C CNN
+	1    15000 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 2500
+Wire Wire Line
+	15000 2500 14900 2500
+$Comp
+L lora_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue TP105
+U 1 1 5D0FAD9C
+P 15000 2700
+F 0 "TP105" H 15075 2825 50  0000 L CNN
+F 1 "Test_Point" H 15058 2729 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 15200 2700 50  0001 C CNN
+F 3 "~" H 15200 2700 50  0001 C CNN
+	1    15000 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 2700
+Wire Wire Line
+	15000 2700 14900 2700
+Text Label 12750 4800 0    60   ~ 0
+USB_DATA_N
+Text Label 12750 4900 0    60   ~ 0
+USB_DATA_P
+Wire Wire Line
+	20900 5250 20425 5250
+Wire Wire Line
+	20425 5150 20425 5250
+Connection ~ 20425 5250
+$Comp
+L lora_board-rescue:Conn_03x32_DIN41612-Devtank-Sensi_Board-rescue-Motor_Control_Board-rescue-moto_board-rescue J3
+U 2 1 5C5BC569
+P 14050 3400
+F 0 "J3" H 13975 1625 50  0000 L CNN
+F 1 "Conn_03x32_DIN41612" H 13975 1525 50  0000 L CNN
+F 2 "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Male-96Pin-3rows_correct" H 14050 3400 50  0001 C CNN
+F 3 "~" H 14050 3400 50  0001 C CNN
+F 4 "717-002" H -1100 275 50  0001 C CNN "Devtank"
+	2    14050 3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11050 2000
+NoConn ~ 11050 2100
+NoConn ~ 11050 2300
+NoConn ~ 11050 2400
+NoConn ~ 11050 2600
+NoConn ~ 11050 2700
+NoConn ~ 11050 2900
+NoConn ~ 11050 3000
+NoConn ~ 11050 3800
+NoConn ~ 11050 3700
+NoConn ~ 11050 3600
+NoConn ~ 11050 3500
+NoConn ~ 11050 3400
+NoConn ~ 11050 3300
+NoConn ~ 11050 3200
+NoConn ~ 11050 3100
+NoConn ~ 11050 5000
+NoConn ~ 11050 4900
+NoConn ~ 11050 4800
+NoConn ~ 11050 4700
+NoConn ~ 11050 4600
+NoConn ~ 11050 4500
+NoConn ~ 11050 4400
+NoConn ~ 11050 4300
+NoConn ~ 11050 4200
+NoConn ~ 11050 4100
+NoConn ~ 11050 4000
+NoConn ~ 12750 2900
+NoConn ~ 12750 3000
+NoConn ~ 12750 3200
+NoConn ~ 12750 3300
+NoConn ~ 12750 3400
+NoConn ~ 12750 3500
+NoConn ~ 12750 3600
+NoConn ~ 12750 3700
+NoConn ~ 12750 3800
+NoConn ~ 12750 3900
+NoConn ~ 12750 4000
+NoConn ~ 12750 4200
+NoConn ~ 12750 4300
+NoConn ~ 12750 4500
+NoConn ~ 14350 3000
+NoConn ~ 14350 3100
+NoConn ~ 14350 3300
+NoConn ~ 14350 3400
+NoConn ~ 14350 3600
+NoConn ~ 14350 3700
+NoConn ~ 14350 3800
+NoConn ~ 14350 3900
+NoConn ~ 14350 4000
+NoConn ~ 14350 4100
+NoConn ~ 14350 4300
+NoConn ~ 14350 4400
+NoConn ~ 14350 4500
+NoConn ~ 14350 4600
+NoConn ~ 14350 4700
+NoConn ~ 14350 4800
+NoConn ~ 14350 4900
+NoConn ~ 14350 5000
+$Comp
+L power:GND #PWR0133
+U 1 1 5E154482
+P 16400 925
+F 0 "#PWR0133" H 16400 675 50  0001 C CNN
+F 1 "GND" H 16405 752 50  0000 C CNN
+F 2 "" H 16400 925 50  0001 C CNN
+F 3 "" H 16400 925 50  0001 C CNN
+	1    16400 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0204
+U 1 1 5E155366
+P 17175 925
+F 0 "#PWR0204" H 17175 775 50  0001 C CNN
+F 1 "+5V" H 17190 1098 50  0000 C CNN
+F 2 "" H 17175 925 50  0001 C CNN
+F 3 "" H 17175 925 50  0001 C CNN
+	1    17175 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devtank:-5V #PWR0206
+U 1 1 5E15622A
+P 17375 925
+F 0 "#PWR0206" H 17375 775 50  0001 C CNN
+F 1 "-5V" H 17390 1098 50  0000 C CNN
+F 2 "" H 17375 925 50  0000 C CNN
+F 3 "" H 17375 925 50  0000 C CNN
+	1    17375 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devtank:+3V3_BP #PWR0248
+U 1 1 5E159E04
+P 16900 925
+F 0 "#PWR0248" H 16900 775 50  0001 C CNN
+F 1 "+3V3_BP" H 16915 1098 50  0000 C CNN
+F 2 "" H 16900 925 50  0000 C CNN
+F 3 "" H 16900 925 50  0000 C CNN
+	1    16900 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devtank:ADJ_DC #PWR0249
+U 1 1 5E15AE72
+P 17875 925
+F 0 "#PWR0249" H 17875 775 50  0001 C CNN
+F 1 "ADJ_DC" H 17890 1098 50  0000 C CNN
+F 2 "" H 17875 925 50  0000 C CNN
+F 3 "" H 17875 925 50  0000 C CNN
+	1    17875 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0250
+U 1 1 5E15C3D4
+P 17600 925
+F 0 "#PWR0250" H 17600 775 50  0001 C CNN
+F 1 "+12V" H 17615 1098 50  0000 C CNN
+F 2 "" H 17600 925 50  0001 C CNN
+F 3 "" H 17600 925 50  0001 C CNN
+	1    17600 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5E4F443F
+P 16400 925
+F 0 "#FLG0104" H 16400 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 16400 1098 50  0000 C CNN
+F 2 "" H 16400 925 50  0001 C CNN
+F 3 "" H 16400 925 50  0001 C CNN
+	1    16400 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5E53ED50
+P 16600 925
+F 0 "#FLG0105" H 16600 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 16600 1098 50  0000 C CNN
+F 2 "" H 16600 925 50  0001 C CNN
+F 3 "" H 16600 925 50  0001 C CNN
+	1    16600 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5E5896B6
+P 16900 925
+F 0 "#FLG0106" H 16900 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 16900 1098 50  0000 C CNN
+F 2 "" H 16900 925 50  0001 C CNN
+F 3 "" H 16900 925 50  0001 C CNN
+	1    16900 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5E5D3FEF
+P 17175 925
+F 0 "#FLG0107" H 17175 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 17175 1098 50  0000 C CNN
+F 2 "" H 17175 925 50  0001 C CNN
+F 3 "" H 17175 925 50  0001 C CNN
+	1    17175 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5E61E906
+P 17375 925
+F 0 "#FLG0108" H 17375 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 17375 1098 50  0000 C CNN
+F 2 "" H 17375 925 50  0001 C CNN
+F 3 "" H 17375 925 50  0001 C CNN
+	1    17375 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5E6B4492
+P 17600 925
+F 0 "#FLG0109" H 17600 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 17600 1098 50  0000 C CNN
+F 2 "" H 17600 925 50  0001 C CNN
+F 3 "" H 17600 925 50  0001 C CNN
+	1    17600 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0110
+U 1 1 5E6FEDBC
+P 17875 925
+F 0 "#FLG0110" H 17875 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 17875 1098 50  0000 C CNN
+F 2 "" H 17875 925 50  0001 C CNN
+F 3 "" H 17875 925 50  0001 C CNN
+	1    17875 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20425 5250 20425 5600
+Wire Wire Line
+	20425 6025 20425 6100
+$Comp
+L Devtank:+3V3_LOC #PWR0252
+U 1 1 5E7A148B
+P 18275 925
+F 0 "#PWR0252" H 18275 775 50  0001 C CNN
+F 1 "+3V3_LOC" H 18290 1098 50  0000 C CNN
+F 2 "" H 18275 925 50  0000 C CNN
+F 3 "" H 18275 925 50  0000 C CNN
+	1    18275 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E7A4F77
+P 18275 925
+F 0 "#FLG0101" H 18275 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 18275 1098 50  0000 C CNN
+F 2 "" H 18275 925 50  0001 C CNN
+F 3 "" H 18275 925 50  0001 C CNN
+	1    18275 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR024
+U 1 1 5DEB1F4F
+P 17875 3725
+F 0 "#PWR024" H 17875 3575 50  0001 C CNN
+F 1 "+3V3" H 17890 3898 50  0000 C CNN
+F 2 "" H 17875 3725 50  0001 C CNN
+F 3 "" H 17875 3725 50  0001 C CNN
+	1    17875 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5DE97AC6
+P 16600 925
+F 0 "#PWR0103" H 16600 775 50  0001 C CNN
+F 1 "+3V3" H 16615 1098 50  0000 C CNN
+F 2 "" H 16600 925 50  0001 C CNN
+F 3 "" H 16600 925 50  0001 C CNN
+	1    16600 925 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
